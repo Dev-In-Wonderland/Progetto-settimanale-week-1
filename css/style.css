@@ -1,0 +1,301 @@
+/* Your styles here */
+*{
+    margin: 0;
+}
+/*BODY*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #393d41;
+    line-height: 1.65px;
+    font-weight: 300;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+h1, h2, h3 {
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.5px;
+    color: #25a2c3;
+
+}
+
+
+/*HEADER*/
+
+header figure {
+    background-color: black;
+    width: 100%;
+    height: 5em;
+
+}
+
+.logo {
+    width: 20%;
+    text-align: center;
+    margin: 1.5em 9em;  
+}
+
+header article {
+    height: 30em;
+    background-image: url(../images/banner.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1.title {
+    height: 3em;
+    font-weight: 700;
+    line-height: 1.5em;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    padding: 2em;
+
+}
+
+p.competenze {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #393d41;
+    line-height: 1.65em;
+    text-align: center;
+    max-width: 500px;
+    margin-bottom: 2em;
+
+}
+
+input.button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #f04c2f;
+    border-radius: 5px;
+    width: 16em;
+    height: 4em;
+    color: white;
+    border: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 5em;
+    margin-left: 9.5em;
+
+
+    
+
+}
+header article p{
+    height: 8em;
+    line-height: 1.5px;
+    box-sizing: border-box;
+    
+
+}
+
+
+/*MAIN*/
+
+main {
+    height: 100em;
+}
+
+.search {
+    padding: 2em;
+    height: 3em;
+    font-weight: 700;
+    line-height: 1.5em;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    padding: 2em;
+}
+
+.developer {font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #393d41;
+    line-height: 1.65em;
+    text-align: center;
+    max-width: 500px;
+    margin-bottom: 2em;
+
+}
+
+main h2.ruolo {
+    padding: 2em;
+    height: 3em;
+    font-weight: 700;
+    line-height: 1.5em;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    padding: 2em;
+
+}
+
+
+p.startup {
+    font-size: 1.2rem;
+    color: #393d41;
+    line-height: 1.65em;
+    text-align: center;
+    max-width: 500px;
+    margin-bottom: 2em;
+
+}
+
+
+.notebook{
+    height: 20em;
+    width: 400px;
+    margin-left: 2.9em;
+    border: 1px solid white;
+    border-radius: 208px;
+    
+
+}
+
+#notebook-1{
+    margin-left: 0;
+}
+
+/*SECTION*/
+
+section {
+    color: white;
+    background-color: #e23d0e;
+    font-size: 1.2rem;
+    line-height: 1.65em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+section article h2 {
+    color: white;
+    font-size: large;
+    height: 3em;
+    font-weight: 700;
+    line-height: 1.5em;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    padding: 2em;
+}
+
+blockquote {
+    font-style: italic;
+    padding-bottom: 1.3em;
+}
+
+p.rossi{
+    font-size: 20px;
+    
+}
+
+i.rossi-2 {
+    font-style: italic;
+}
+
+.quote {
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+
+/*ASIDE*/
+
+#aside {
+    width:400px;
+    margin-left:0
+}
+
+#article-1, #article-2, #article-3 {
+    height: 50em;
+    margin-bottom:4em;
+    margin-left:2em
+}
+
+aside article {
+    border: 1px solid #dee1e3;
+    text-align: center;
+    width: 85%;
+    height: 30em;
+
+    
+}
+
+aside figure img {
+    display: block;
+    margin: 0 auto;
+    /*width: 250px;
+    height: 250px;*/
+
+    box-sizing: border-box;
+    background-position: center center ;
+}
+
+aside img {
+    width:200px;
+    margin-left: 0
+       
+}
+
+figure#article-1{
+    margin-left: 0;
+}
+
+/*FOOTER*/
+
+footer {
+    color: white;
+    background-color: #25a2a3;
+    text-align: center;
+    height: 30em;
+}
+
+footer h3 {
+    color: white;
+    font-size: large;
+}
+
+footer div {
+    color: white;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+footer hr {
+    border: 2px solid white;
+    background-color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.address {
+    color: white;
+}
+
+.hr-footer {
+    margin-left: 6.5em;
+}
+
+.call {
+    color: white;
+}
+
+.arrow {
+    background-color: white;
+}
+/**/
+
+/**/
+
+/**/
