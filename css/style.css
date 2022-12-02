@@ -212,20 +212,28 @@ i.rossi-2 {
 
 #aside {
     width:400px;
-    margin-left:0
+    margin-left:0;
+    display: flex;
+    flex-direction: column;
 }
 
 #article-1, #article-2, #article-3 {
     height: 50em;
     margin-bottom:4em;
-    margin-left:2em
+    margin-left:2em;
+    border: 1px solid #dee1e3;
+    text-align: center;
+    width: 400px;
+    height: 50em;
+    display: flex;
+    flex-direction: column;
 }
 
 aside article {
-    border: 1px solid #dee1e3;
+   /* border: 1px solid #dee1e3;
     text-align: center;
     width: 85%;
-    height: 30em;
+    height: 30em;*/
 
     
 }
